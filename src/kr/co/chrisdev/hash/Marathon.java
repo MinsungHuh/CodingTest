@@ -32,7 +32,7 @@ public class Marathon {
         String[] participant = {"mislav", "mislav", "stanko", "ana"};
         String[] completion = {"stanko", "ana", "mislav"};
 
-        System.out.println("result : " + marathonHashMap(participant, completion));
+        marathonHashMap(participant, completion);
     }
 
     private static String marathon(String[] participant, String[] completion) {
